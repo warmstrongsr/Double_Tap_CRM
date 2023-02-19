@@ -1,0 +1,173 @@
+body {
+    /* margin: 0px; */
+    /* margin-top: 0%; */
+    /* padding: 0%; */
+    /* border: 1px solid red; */
+    /* background-color: white;    */
+    display: flex;
+    justify-content: center;
+    max-width: fit-content;
+}
+
+.bigtopimg {
+    height: 400px;
+    padding-right: 10%;
+    
+}
+
+.dot {
+    height: 6px;
+    width: 6px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#margin4top{
+    padding-left: 10%;
+    padding-top: 2%;
+}
+
+.material-symbols-outlined {
+    margin-top: px;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 200,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+.left_header_text {
+    font-size: 40px;
+    color: black;
+    text-align: left;
+    /* top: 39%; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+     
+}
+
+#payment-card {
+    max-width: fit-content;
+    
+}
+
+ul {
+    padding: 0;
+    margin-top: 0%;
+}
+
+#ulli {
+    list-style-type: '- '; 
+    font-size: 10px;   
+    /* margin-bottom: auto; */
+    
+    text-align: left;
+    ;
+    
+}
+
+#navbar {
+    font-size: 10px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+
+#button{
+    font-weight: 700;
+    font-size: 13px;
+    padding: 2%;
+    border: ;
+}
+
+#btn1 {
+    font-weight: 500;
+    font-size: 11px;
+    width: 72px;
+    height: 27px;
+}
+#picrow {
+
+    margin-top: em;
+    margin-bottom: 4em;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#center {
+    margin: auto;
+    /* width: 200px; */
+    padding: 0px;
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    justify-content: space-between;
+
+    
+}
+#center1 {
+    margin-right: 50px;
+    width:12em;
+    /* padding: 10px; */
+    text-align: center;
+    border-radius: 12px;
+    color: white;
+    background-color: rgb(53, 182, 53);
+    height: 40px;
+    font-weight: 500;
+}
+#center2 {
+    margin: auto;
+    width: 12em;
+    /* padding: 10px; */
+    background-color: white;
+    color: blue;
+    text-align: center;
+    border-radius: 12px;
+    height: 40px;
+    font-size: small;
+    font-weight: 800;
+}
+
+
+.smallbotrimg {
+    height: 50px;
+
+}
+
+.smallbotlimg {
+    height: 550px;
+
+}
+
+
+footer {
+    display: flex;
+    background-color: blue;
+    flex-direction: column;
+    width: 2300px;
+    
+   
+}
+
+.button1 {
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 300px;
+    background-color: green;
+    border: 0% none white;
+}
+#crd{
+    
+}
+
+
+
+
+
+
+
+
+
