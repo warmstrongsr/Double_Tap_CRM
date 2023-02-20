@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+}
+
+.container{
+    margin: 10px;
+    height: 100vh;
+    display: grid;
+    grid-gap:3px;
+    grid-template-columns: 110vh repeat(1, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-areas: 
+    "signup image"
+    "name image"
+    "email image"
+    "password image"
+    "sign image"
+    "text image"
+    "media image"
+    ;
+}
+
+.container1{
+    display: block;
+    text-align: center;
+    margin:20px;
+}
+.signup{
+    margin:10%;
+    display: block;
+    grid-area: signup;
+    text-align: center;
+    font-size:40px;
+    bottom: 60%;
+    margin-bottom: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.name{
+    grid-area: name;
+    text-align: center;
+
+}
+
+.email{
+    grid-area: email;
+    display: block;
+    text-align: center;
+
+} 
+
+.iconname{ 
+    height: 100px;
+    width: 100px;
+    background: url(/images/sign_up/Page-1.png) no-repeat;
+    background-size: 5%;
+    background-position:5%;
+    
+}
+
+.iconemail{ 
+    height: 100px;
+    width: 100px;
+    background: url(/images/sign_up/small_email.png) no-repeat;
+    background-size: 5%;
+    background-position:5%;
+}
+.iconpassword{ 
+    width:100px;
+    height: 100px;
+    background: url(/images/sign_up/black_lock.svg.png) no-repeat;
+    background-size: 5%;
+    background-position: 5%;
+}
+.password{
+    display: block;
+    grid-area: password;
+    text-align: center;
+}
+
+.sign{
+    grid-area: sign;
+    display: block;
+    text-align: center;
+}
+.text{
+    display: block;
+    grid-area: text;
+    text-align: center;
+    margin-top:20px;
+}
+
+
+#form{
+    width:50%;
+    height: 20%;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 0%;
+
+}
+
+#sign{
+    grid-area:signup;
+    width: 25%;
+    height: 60%;
+    padding:12px;
+    border-radius:30px;
+    background-color: blue;
+    border: none;
+    color:white;
+    font-size:25px;
+}
+
+.media{
+    grid-area:media;
+    display: inline;
+    text-align: center;
+}
+
+
+.images{
+    grid-area: image;
+    background-image:url(/images/sign_up/Group\ 10.png);
+    background-repeat: no-repeat;
+    width:100%;
+    height:100%;
+    background-size: 500px 500px, contain;
+    margin-left: 0px;
+    margin-top: 90px;
+}
+
+.fa {
+    display: inline-block;
+    margin-inline: 20px;
+    padding: 20px;
+    font: size 20px;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    border-radius:50%;
+    background-color: white;
+    border-color: black;
+    outline: 2px solid lightgray;
+    margin-top: 20px;
+}
