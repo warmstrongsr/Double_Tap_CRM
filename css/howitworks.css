@@ -1,5 +1,136 @@
+#navbar{
+    background-color: white;
+}
 
-    #first-half {
+#logo-image{
+   height: 30px;
+   margin-top: 30px;
+
+}
+
+#button{
+    margin:35px;
+}
+
+#first-half{
+    margin-left:120px;
+}
+
+#first-half p{
+    line-height:20px;
+    margin-top: 20px;
+}
+
+#first-half-buttons{
+    margin-top:0px;
+}
+
+p{
+    line-height:10px;
+}
+
+#bubble-pictures{
+    height:400px;
+    width:500px;
+}
+
+.chat-image{
+    height:20px;
+    margin-right:5px;
+}
+
+.text-image{
+    height:5px;
+}
+
+#small_text{
+    margin-bottom: 80px;
+}
+
+#card{
+    margin:auto;
+    border-radius: 10px;
+    height: 400px;
+}
+.card-text{
+    line-height: 20px;
+}
+
+#card-title{
+    text-indent: 60px;
+}
+
+#payment-card{
+    margin:0px;
+    padding-top: 50px;
+    height: 400px;
+}
+
+#card-body-text{
+    margin-top: 70px;
+}
+
+#card-image{
+    height:400px;
+    width:400px;
+}
+
+#paragraph{
+    line-height: 20px;
+}
+
+#paragraph-title{
+    margin-top: 60px;
+}
+
+#second-paragraph{
+    line-height: 20px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+footer{
+    margin-top:80px;
+}
+
+#footer-text{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#footer-button{
+    background-color: rgb(136, 210, 26);
+    margin-bottom:40px;
+}
+
+#footer-button2{
+    margin-bottom:40px;
+}
+
+#small-text-footer{
+    margin-bottom:60px;
+}
+
+#dot-image{
+    height:5px;
+}
+
+@media (max-width: 800px){
+    #button{
+        margin: 20px;
+    }
+    #first-paragraph{
+        line-height: 20px;
+    }
+
+    #navbar{
+        margin-top:20px;
+        margin-left:0px;
+    }
+    #button{
+        visibility: hidden;
+    }
+
+    #first-half{
         margin-top: 0px;
     }
 }
